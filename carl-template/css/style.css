@@ -48,7 +48,7 @@ a:hover { color:#cd0200;}
 .head .sitetitle { height:15px; position:absolute; right:0px; top:20px;}		/**站点名称**/
 .navbar { width:100%; height:40px; background:#06508d;position: relative;  z-index: 9999;}   	/**导航区域背景**/
 .navbar .navbox { width:1000px; height:40px; margin:0 auto;}   /**导航窗口大小及位置**/
-.wp_nav .nav-item { height:40px; width:111px;}
+.wp_nav .nav-item { height:40px; width:142.85px;}
 .wp_nav .nav-item a span.item-name { color:white; padding:0;}
 #wp_nav_w2 .wp_nav .nav-item a span.item-name {line-height:40px;}
 .wp_nav .nav-item a.parent {}
@@ -120,12 +120,15 @@ a:hover { color:#cd0200;}
     padding-top: 6px;}
 .zc-liebiao { float:left; padding-top:5px;}
 .mod6 {}
-.tupian {width:320px;
+.tupian {
+    width:320px;
+    height:240px;
+    overflow:hidden;
     float: left;
     padding-top: 20px;
 	position:relative;
 	}
-.tupian img{ width:100%;}
+.tupian img{ height:100%; position: relative; left:-140px;}
 .tpbt { position:absolute; text-align:left; width:310px; height:50px; line-height:25px; bottom:0px; font-weight:normal; left:10px;}
 .tpbt a { color:#fff; font-size:14px;}
 .tpbt-bj { position:absolute; height:50px; width:320px; left:0px; bottom:0px; background:#008afe; opacity:0.5; filter:alphy(opticy=50);}
