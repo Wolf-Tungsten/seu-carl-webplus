@@ -90,7 +90,7 @@ a:hover { color:#cd0200;}
 .mod1 { width:1000px; height:400px; margin:0 auto; background:#ccc;} /**左列**/
 .mod1 .ml { width:100%;} 
 .mod1 .post .con { padding:0px;}
-.mod2 {width:650px; float:left; height:320px; padding-top:40px;}
+.mod2 {width:650px; float:left; height:320px; padding-top:20px;}
 .mod2 .new-list { height:30px; line-height:18px; padding-top:11px;}
 .mod2 .biaoti { width:250px; float:left;}
 #mod0 .inner { width:1000px;}
@@ -98,7 +98,7 @@ a:hover { color:#cd0200;}
 #mod0 .new-list { padding-top:10px; background:url(../images/index.png) 0px 13px; background-repeat:no-repeat;}
 .mod3 .new-list { width:500px;}
 #mod0 .biaoti { width:380px; float:left; padding-left:13px;}
-.mod4 { width:312px; height:320px; float:right; padding-top:40px;}
+.mod4 { width:312px; height:320px; float:right; padding-top:20px;}
 .fbsj { float:left; width:60px; height:60px; font-family:"微软雅黑";}
 .ri { height:30px; width:60px; background:#0373ce;  text-align: center; font-size: 22px; color:#fff; line-height:30px; font-weight:bold;}
 .nianyue { color:#0373ce; height:25px; width:60px; background:#fff; text-align: center; line-height:25px; font-weight:bold;}
