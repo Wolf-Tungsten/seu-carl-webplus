@@ -43,7 +43,7 @@ a:hover { color:#cd0200;}
 /**页头开始**/
 #header {}
 #picture {}
-#header .inner { background:#0373ce url(../images/head.png); background-repeat:no-repeat; background-position:top;}
+#header .inner { background:#0373ce url(../images/head.png); background-repeat:no-repeat; background-position:top; background-size:1600px 150px;}
 .head { width:1000px; height:150px; position:relative; margin:0 auto;}    /**页头部分**/
 .head .sitetitle { height:15px; position:absolute; right:0px; top:20px;}		/**站点名称**/
 .navbar { width:100%; height:40px; background:#06508d;position: relative;  z-index: 9999;}   	/**导航区域背景**/
@@ -214,7 +214,7 @@ a:hover { color:#cd0200;}
 #con_link .inner { width:1098px; margin:0 auto; padding-top:36px;}
 /**页脚开始**/
 #footer {}
-.foot { width:1000px; margin:0 auto; text-align:center; padding-top:30px;}
+.foot { width:100%; margin:0 auto; text-align:center; padding-top:30px;}
 #footer .inner { height:100px; background:#06508d;}
 #footer .inner p { font-size:14px; line-height:24px;}
 #footer .inner p span { font-size:14px; color:#fff;}
@@ -243,8 +243,7 @@ a:hover { color:#cd0200;}
     opacity: 0.6;
 }
 .copyright {
-    float: left;
-    width: 780px;
+    width: 100%;
 }
 
 .weixin_ewm {
